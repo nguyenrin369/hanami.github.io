@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Thư 20/10 cho Ebe 💌</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<audio id="bg-music" src="music.mp3" preload="auto"></audio>
+<body>
+  <div class="scene">
+    <!-- background sparkles -->
+    <div class="sparkles"></div>
+
+    <!-- falling hearts container -->
+    <div id="fall-container"></div>
+
+    <!-- envelope holder -->
+    <div class="envelope-wrap">
+      <div class="envelope" id="envelope">
+        <div class="envelope-flap"></div>
+        <div class="envelope-body"></div>
+      </div>
+
+      <!-- letter (hidden initially) -->
+      <div class="letter" id="letter">
+        <div class="letter-paper">
+          <h1 class="letter-title">Gửi Ebe 💖</h1>
+          <p class="letter-content" id="letterText"></p>
+          <div class="signature">— Người Tặng Anh pé</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- play hint -->
+    <div class="hint" id="hint">Chạm vào phong bì để mở thư ✨</div>
+
+    <!-- audio (place a file named music.mp3 in same folder or change src) -->
+    <audio id="bgMusic" src="music.mp3" loop preload="auto"></audio>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
